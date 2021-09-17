@@ -11,6 +11,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  line-height: 1.14;
 }
 
 /* -------HEADER------ */
@@ -21,7 +23,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -33,10 +34,8 @@ body {
 }
 .nav-link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-link:hover,
@@ -46,12 +45,14 @@ body {
 .link {
   text-decoration: none;
 }
+.link.current-page {
+  color: var(--accent-color);
+}
 
 .contact-link {
-  color: var(--secondary-darkgray-color);
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-link:hover,
@@ -95,24 +96,18 @@ body {
   list-style: none;
 }
 .main-heading {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
 .main-paragraph {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .main-title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -126,7 +121,7 @@ body {
   background-color: var(--third-title-color);
 }
 .team {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -138,12 +133,10 @@ body {
   background-color: var(--primary-white-color);
 }
 .about-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .about-work {
@@ -152,19 +145,21 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* -------FOOTER-------- */
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
 .logo {
   color: var(--primary-white-color);
+}
+.address {
+  font-style: normal;
+  font-weight: normal;
 }
 .footer {
   background-color: var(--secondary-darkgray-color);
@@ -173,22 +168,18 @@ body {
   list-style: none;
 }
 .footer-item {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .address-items {
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 .footer-contact {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer-contact:hover,
 .footer-contact:focus {
@@ -203,7 +194,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -212,15 +202,16 @@ body {
 }
 .portfol-link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 .portfol-link:hover,
 .portfol-link:focus {
+  color: var(--accent-color);
+}
+.links.current-page {
   color: var(--accent-color);
 }
 
@@ -233,10 +224,9 @@ body {
 }
 
 .header-link {
-  color: var(--secondary-darkgray-color);
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .header-link:hover,
@@ -258,6 +248,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 .hero-btn {
   font-style: inherit;
@@ -265,7 +256,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
@@ -274,7 +264,7 @@ body {
   list-style: none;
 }
 .filter-heading {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -284,10 +274,10 @@ body {
   text-decoration: none;
 }
 .filter-paragraph {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0.03em;
+
   color: var(--secondary-text-color);
 }
 /* -------FOOTER--------- */
@@ -295,7 +285,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -305,27 +294,26 @@ body {
 .footer-title {
   background-color: var(--secondary-darkgray-color);
 }
+.footer-address {
+  font-style: normal;
+}
 .address-list {
   list-style: none;
 }
 .address-map {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 .address-item {
   color: var(--primary-white-color);
 }
 .address-contact {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .address-contact:hover,
 .address-contact:focus {
