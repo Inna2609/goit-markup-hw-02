@@ -19,6 +19,7 @@ body {
 .header {
   background-color: var(--primary-white-color);
 }
+/* LOGO */
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -32,6 +33,7 @@ body {
 .logo-color {
   color: var(--title-text-color);
 }
+/* NAVIGATION */
 .nav-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -48,7 +50,7 @@ body {
 .link.current-page {
   color: var(--accent-color);
 }
-
+/* CONTACTS */
 .contact-link {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -87,32 +89,35 @@ body {
   border-radius: 4px;
   border: 0;
 }
-
 /* ------OUR ADVANTAGES------ */
-.main {
+.features {
   background-color: var(--primary-white-color);
 }
-.main-list {
+.features-list {
   list-style: none;
 }
-.main-heading {
+.features-heading {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
-.main-paragraph {
+.features-paragraph {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
-.main-title {
+.features-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
 }
-.title-list {
+.activity-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.activity-list {
   list-style: none;
 }
 
@@ -233,24 +238,24 @@ body {
 .header-link:focus {
   color: var(--accent-color);
 }
-.main-section {
+.filter-section {
   background-color: var(--primary-white-color);
 }
-.hero-list {
+.filter-list {
   text-decoration: none;
   list-style: none;
 }
-.hero-button {
+.filter-button {
   cursor: pointer;
   color: var(--primary-text-color);
   background-color: var(--third-title-color);
 }
-.hero-button:hover,
-.hero-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
-.hero-btn {
+.filter-btn {
   font-style: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -260,24 +265,23 @@ body {
   border-radius: 4px;
   border: 0;
 }
-.filter-list {
+.gallery-list {
   list-style: none;
 }
-.filter-heading {
+.gallery-heading {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
-.filter-link {
+.gallery-link {
   text-decoration: none;
 }
-.filter-paragraph {
+.gallery-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-
   color: var(--secondary-text-color);
 }
 /* -------FOOTER--------- */
@@ -288,10 +292,10 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
-.title-logo {
+.portfolio-logo {
   color: var(--primary-white-color);
 }
-.footer-title {
+.portfolio-footer {
   background-color: var(--secondary-darkgray-color);
 }
 .footer-address {
